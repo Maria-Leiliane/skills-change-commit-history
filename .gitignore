@@ -1,37 +1,96 @@
-# Compiled source #
-###################
-*.com
-*.class
-*.dll
-*.exe
-*.o
-*.so
+# Arquivos de credenciais e chaves
+*.pem
+*.key
+*.crt
+*.env
+.env.*
+.credentials
+*.p12
+*.pfx
 
-# Packages #
-############
-# it's better to unpack these files and commit the raw source
-# git has its own built in compression methods
-*.7z
-*.dmg
-*.gz
-*.iso
-*.jar
-*.rar
-*.tar
-*.zip
+# Arquivos de configuração
+config.yaml
+config.json
+config.js
+*.config
+*.cfg
 
-# Logs and databases #
-######################
+# Logs de execução
 *.log
-*.sql
-*.sqlite
+*.out
+*.err
 
-# OS generated files #
-######################
+# Informações de build
+build/
+dist/
+out/
+node_modules/
+coverage/
+
+# Arquivos de sistema e IDEs
 .DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
 Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
+
+# Arquivos de cache
+*.cache
+*.temp
+*.tmp
+*.pid
+.cache/
+tmp/
+temp/
+
+# Chaves SSH e informações sensíveis do Git
+.ssh/
+.gitconfig
+.gitignore
+.gitattributes
+*.lock
+
+# Arquivos do Docker e CI/CD
+docker-compose.override.yml
+*.dockerfile
+.dockerignore
+.env.local
+.env.development
+.env.production
+.env.test
+*.tfvars
+*.tfstate
+*.tfstate.backup
+
+# Arquivos de pacotes e bibliotecas
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.7z
+*.rar
+
+# Certificados e chaves de segurança
+*.cer
+*.pfx
+*.p12
+*.jks
+
+# Arquivos de máquina virtual ou containers
+.vagrant/
+.vbox/
+*.vmdk
+*.vdi
+*.iso
+
+# Arquivos de serviços em nuvem
+*.aws
+*.gcp
+*.azure
+
+# Arquivos temporários de edição de texto
+*.tmp
+*.swp
